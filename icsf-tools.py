@@ -55,7 +55,7 @@ def login ():#line:37:def login():
     while O0O0OO0000OO00O00 <3 :#line:44:while attempts < 3:
         O0000000OOO000O00 =input ("\n   ➤ Enter Username: ")#line:45:username = input("\n   ➤ Enter Username: ")
         OO00OO00OO0OOO00O =input ("   ➤ Enter Password: ")#line:46:password = input("   ➤ Enter Password: ")
-        if O0000000OOO000O00 =="somser"and OO00OO00OO0OOO00O =="somser":#line:48:if username == "somser" and password == "somser":
+        if O0000000OOO000O00 =="icsf-tools"and OO00OO00OO0OOO00O =="icsf-d":#line:48:if username == "icsf-tools" and password == "icsf-d":
             print ("\n   ✅ Login Successful!\n")#line:49:print("\n   ✅ Login Successful!\n")
             time .sleep (1 )#line:50:time.sleep(1)
             os .system ("clear")#line:51:os.system("clear")
@@ -84,7 +84,7 @@ def get_target_details ():#line:69:def get_target_details():
 def print_ddos_banner():
     print("\033[96m")  # Cyan text color
     print("   ╔══════════════════════════════════════════╗")
-    print("   ║               VOID X RAVEN DDOS TOOL             ║")
+    print("   ║             ICSF DDOS TOOLS              ║")
     print("   ╚══════════════════════════════════════════╝")
     print("\n")
     print("""
@@ -101,6 +101,12 @@ def print_ddos_banner():
 ██║  ██║██║  ██║██║   ██║╚════██║
 ██████╔╝██████╔╝╚██████╔╝███████║
 ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝
+    ___   __  __             __  
+   /   | / /_/ /_____ ______/ /__
+  / /| |/ __/ __/ __ `/ ___/ //_/
+ / ___ / /_/ /_/ /_/ / /__/ ,<   
+/_/  |_\__/\__/\__,_/\___/_/|_|  
+                                  
 """)
     print("\033[0m")  # Reset color
 def start_ddos (O0O00OO00OOO0O0OO ,OOO00O0OO0O000O00 ):#line:97:def start_ddos(ip, port):
