@@ -1,5 +1,6 @@
-ICSF DDOS ATTACK TOOLS☠️
+## ⚙️ Installation
 
+```bash
  pkg update && pkg upgrade
  pkg install python
  pkg install git
